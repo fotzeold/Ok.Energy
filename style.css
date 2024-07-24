@@ -12,17 +12,32 @@ body {
 	width: 100%;
 	position: fixed;
 }
-
-.background__lines-row {
-	display: grid;
-	gap: 15px;
-	grid-template-rows: repeat(16, 1fr);
+.mobile-lines {
+	display: none;
 }
 
-.background__lines-column {
+.desktop-lines .background__lines-row {
+	display: grid;
+	gap: 15px;
+	grid-template-rows: repeat(8, 1fr);
+}
+
+.desktop-lines .background__lines-column {
 	display: grid;
 	gap: 15px;
 	grid-template-columns: repeat(16, 1fr);
+}
+
+.mobile-lines .background__lines-row {
+	display: grid;
+	gap: 15px;
+	grid-template-rows: repeat(15, 1fr);
+}
+
+.mobile-lines .background__lines-column {
+	display: grid;
+	gap: 15px;
+	grid-template-columns: repeat(8, 1fr);
 }
 
 .background__lines-row .background__line {
@@ -94,5 +109,14 @@ body {
 	}
 	100% {
 		background-position: 100% 0%;
+	}
+}
+
+@media all and (max-width: 768px) {
+	.desktop-lines {
+		display: none;
+	}
+	.mobile-lines {
+		display: block;
 	}
 }
