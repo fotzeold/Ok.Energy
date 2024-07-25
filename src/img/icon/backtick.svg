@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="49px" height="31px" viewBox="0 0 49 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Shape</title>
+    <defs>
+        <linearGradient x1="4.57966998e-13%" y1="30.8317587%" x2="100%" y2="69.1682413%" id="linearGradient-1">
+            <stop stop-color="#00CA65" offset="0%"></stop>
+            <stop stop-color="#009DE0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Extra-Large" transform="translate(-371, -1819)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="Group-22" transform="translate(371, 1127)">
+                <g id="Group-29" transform="translate(0, 680)">
+                    <g id="Group-21" transform="translate(0, 12.672)">
+                        <g id="„" transform="translate(0.54, 0)">
+                            <path d="M6.78571429,0 L24.2857143,0 L11.4285714,30 L0,30 L6.78571429,0 Z M30.8333333,0 L48.452381,0 L35.5952381,30 L24.047619,30 L30.8333333,0 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
