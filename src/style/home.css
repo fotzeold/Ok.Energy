@@ -273,7 +273,6 @@
 	display: block;
 	margin: 0 auto;
 	max-width: 900px;
-	opacity: 0.6;
 }
 
 /* Devices */
@@ -375,7 +374,7 @@
 	-webkit-background-clip: text;
 }
 
-.gallery__list {
+/* .gallery__list {
 	flex-wrap: wrap;
 	gap: 20px;
 	justify-content: center;
@@ -390,13 +389,29 @@
 	max-width: 1000px;
 	width: 100%;
 	object-fit: cover;
+} */
+
+.gallery .container {
+	max-width: 1000px;
 }
 
-@media all and (max-width: 768px) {
+.mySwiper2 img {
+	width: 100%;
+	height: 600px;
+	object-fit: cover;
+}
+
+.mySwiper img {
+	width: 100%;
+	height: 120px;
+	object-fit: cover;
+}
+
+/* @media all and (max-width: 768px) {
 	.gallery__list img {
 		height: 500px;
 	}
-}
+} */
 
 /* feedbacks */
 
