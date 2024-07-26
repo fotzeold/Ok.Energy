@@ -438,11 +438,11 @@
 }
 
 .feedbacks__track-first {
-	animation: moveFeedbackLeft 25s linear infinite;
+	animation: moveFeedbackLeft 65s linear infinite;
 }
 
 .feedbacks__track-second {
-	animation: moveFeedbackRight 25s linear infinite;
+	animation: moveFeedbackRight 65s linear infinite;
 }
 
 .feedbacks__track-inner {

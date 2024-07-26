@@ -88,3 +88,12 @@ const observer = new IntersectionObserver(handleIntersection, {
 document.querySelectorAll('.owner__top-item').forEach(item => {
 	observer.observe(item);
 });
+
+// Feedbacks
+
+const trackFeedback = document.querySelector('.feedbacks__track-inner');
+const trackWidthFeedback = trackFeedback.scrollWidth;
+const trackParentFeedback = document.querySelector('.feedbacks__track');
+const parentFeedbackWidth = trackParentFeedback.offsetWidth;
+
+document.documentElement.style.setProperty('--feed-width', `${trackWidthFeedback}px`);
