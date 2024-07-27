@@ -1,11 +1,17 @@
 // Header Burger Menu
-
 let headerBurger = document.querySelector(".header__burger");
 let headerNav = document.querySelector(".header__content nav")
 
 headerBurger.addEventListener("click", () => {
 	headerNav.classList.toggle("active")
 	headerBurger.classList.toggle("active")
+})
+
+headerNav.addEventListener('click', (event) => {
+	if (event.target.closest("a")) {
+		headerNav.classList.remove("active")
+		headerBurger.classList.remove("active")
+	}
 })
 
 
@@ -97,3 +103,41 @@ const trackParentFeedback = document.querySelector('.feedbacks__track');
 const parentFeedbackWidth = trackParentFeedback.offsetWidth;
 
 document.documentElement.style.setProperty('--feed-width', `${trackWidthFeedback}px`);
+
+
+// Form
+const _CHAT_ID = "-4225938954"
+const _TG_TOKEN_BOT = "7424172170:AAGMGNNUUkw9V4o8Ha6RBnGzVvFe4c1RyOU"
+const _TG_URL = `https://api.telegram.org/bot${_TG_TOKEN_BOT}/sendMessage`
+let form = document.querySelector(".modal form")
+let inps = document.querySelectorAll(".modal form input")
+let formMessage = document.querySelector('.modal form p')
+
+async function sendData(message) {
+	try {
+		return await fetch(_TG_URL, {
+			method: 'POST',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify({
+				chat_id: _CHAT_ID,
+				text: message,
+				parse_mode: "html"
+			}),
+		})
+	} catch (error) {
+		return error
+	}
+}
+
+form.addEventListener("submit", (event) => {
+	event.preventDefault()
+
+	let message = `Заявка з сайту!\n\nІмя: ${inps[0].value}\nПошта: ${inps[1].value}\nТел: ${inps[2].value}`
+	sendData(message).then(() => {
+		formMessage.innerHTML = "Ihre Bewerbung wurde angenommen. Wir werden Sie in Kürze kontaktieren"
+		setTimeout(() => {
+			formMessage.innerHTML = ""
+			modal.classList.remove("active")
+		}, 3000)
+	})
+})
