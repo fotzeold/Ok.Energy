@@ -115,7 +115,7 @@
 	background:
 		linear-gradient(219deg, rgba(0, 0, 0, 0.38), rgba(255, 255, 255, 0) 58%),
 		linear-gradient(225deg, #00552b, rgba(0, 94, 134, 0.31) 37%, rgba(0, 0, 0, 0) 68%),
-		url("../img/picture/owner.jpg") 0 0 / cover no-repeat;
+		url("../img/picture/owner.png") 0 0 / cover no-repeat;
 	border-radius: 25px;
 	position: relative;
 }
@@ -220,7 +220,7 @@
 		background:
 			linear-gradient(50deg, rgba(0, 0, 0, 0.38), rgba(255, 255, 255, 0) 58%),
 			linear-gradient(50deg, #00552b, rgba(0, 94, 134, 0.31) 37%, rgba(0, 0, 0, 0) 68%),
-			url("../img/picture/owner.jpg") 25% 0 / cover no-repeat;
+			url("../img/picture/owner.jpg") 45% 0 / cover no-repeat;
 		border-radius: 25px;
 	}
 	.owner__bottom-text {
