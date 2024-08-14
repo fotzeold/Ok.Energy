@@ -154,11 +154,10 @@
 .owner__bottom {
 	min-height: 675px;
 	display: flex;
-	justify-content: flex-end;
-	text-align: right;
+	justify-content: flex-start;
 	background:
 		linear-gradient(219deg, rgba(0, 0, 0, 0.38), rgba(255, 255, 255, 0) 58%),
-		linear-gradient(225deg, #00552b, rgba(0, 94, 134, 0.31) 37%, rgba(0, 0, 0, 0) 68%),
+		linear-gradient(155deg, #00552b, rgba(0, 94, 134, 0.31) 37%, rgba(0, 0, 0, 0) 68%),
 		url("../img/picture/owner.png") 0 0 / cover no-repeat;
 	border-radius: 25px;
 	position: relative;
@@ -215,7 +214,7 @@
 .owner__partners-track {
 	display: flex;
 	align-items: center;
-	animation: movePartnersLeft 45s linear infinite;
+	animation: movePartnersLeft 25s linear infinite;
 }
 
 .owner__partners-track-inner {
@@ -250,10 +249,10 @@
 
 @keyframes movePartnersLeft {
 	0% {
-		transform: translateX(100%);
+		transform: translateX(10%);
 	}
 	100% {
-		transform: translateX(calc(-1 * var(--track-width)));
+		transform: translateX(calc(-1 * var(--track-width) + 90%));
 	}
 }
 
