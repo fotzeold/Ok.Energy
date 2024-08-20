@@ -1,0 +1,24 @@
+<svg width="52" height="51" viewBox="0 0 52 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2003_245)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M22.1345 12.6665C22.7025 11.6808 22.1847 10.5114 21.3995 10.1439C19.8458 9.39214 16.488 11.4971 15.3019 12.5997C-0.351515 27.2006 16.0369 48.5172 33.1103 40.465C44.3533 35.1692 46.6587 17.2105 32.4253 10.3277C29.5352 8.92438 28.2823 11.6474 29.4684 12.9839C29.9863 13.5686 30.9886 13.8192 31.7738 14.2368C40.678 18.9145 40.6613 32.0285 32.1914 36.7062C30.5376 37.625 29.0842 38.1596 26.9124 38.4436C21.7002 39.1619 15.5859 35.4699 13.815 30.4582C12.9463 28.0024 12.7793 27.4511 12.8795 24.394C12.9296 22.4561 13.7816 20.6018 14.6002 19.0815C17.0393 14.5375 21.4496 13.8693 22.1345 12.6665Z" fill="#1EFF00"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24.536 9.39694C24.536 12.4579 24.4334 23.9147 24.5745 24.6435C24.8697 26.1594 26.6403 26.5238 27.2819 25.1245C27.6283 24.3812 27.4615 11.904 27.4487 9.14914C27.4487 7.9539 27.5128 5.95698 25.9475 6.00071C24.2666 6.04443 24.536 8.33288 24.536 9.39694Z" fill="#1EFF00"/>
+<g filter="url(#filter0_i_2003_245)">
+<path d="M26 49C38.9787 49 49.5 38.4787 49.5 25.5C49.5 12.5213 38.9787 2 26 2C13.0213 2 2.5 12.5213 2.5 25.5C2.5 38.4787 13.0213 49 26 49Z" stroke="white" stroke-width="4"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_i_2003_245" x="0.5" y="0" width="51" height="52" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0470588 0 0 0 0 0.0470588 0 0 0 0 0.0509804 0 0 0 0.05 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_2003_245"/>
+</filter>
+<clipPath id="clip0_2003_245">
+<rect width="52" height="51" fill="white"/>
+</clipPath>
+</defs>
+</svg>
