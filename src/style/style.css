@@ -10,6 +10,16 @@ html {
 	scroll-margin-top: 500px;
 }
 
+body::-webkit-scrollbar {
+	background-color: black;
+	width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: rgb(2, 171, 2);
+	border-radius: 10px;
+}
+
 .requst-btn {
 	font-size: 20px;
 	border-radius: 30px;
@@ -461,6 +471,6 @@ footer {
 	}
 	footer {
 		background: rgba(0, 0, 0, 0.7);
-		padding: 40px 0 10px 0;
+		padding: 40px 0 60px 0;
 	}
 }

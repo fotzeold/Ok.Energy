@@ -1,6 +1,7 @@
 // Header Burger Menu
 let headerBurger = document.querySelector(".header__burger");
 let headerNav = document.querySelector(".header__content nav")
+let openHeroModalBtn = document.querySelector(".hero #open-modal")
 
 headerBurger.addEventListener("click", () => {
 	headerNav.classList.toggle("active")
@@ -19,6 +20,13 @@ headerNav.addEventListener('click', (event) => {
 
 window.addEventListener('scroll', function () {
 	let header = document.querySelector('header');
+
+	if (window.scrollY >= 100 * window.innerHeight / 100) {
+		openHeroModalBtn.classList.add("fixed")
+	} else {
+		openHeroModalBtn.classList.remove("fixed")
+	}
+
 	if (window.scrollY > 150) {
 		header.classList.remove('header-transparent');
 		header.classList.add('header-solid');

@@ -103,6 +103,11 @@
 }
 
 @media all and (max-width: 768px) {
+	.hero__content #open-modal.fixed {
+		position: fixed;
+		bottom: 10px;
+	}
+
 	.hero__content h1 {
 		font-size: 36px;
 	}
