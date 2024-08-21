@@ -7,7 +7,7 @@
 
 html {
 	scroll-behavior: smooth;
-	scroll-margin-top: 500px;
+	scroll-padding-top: 40px;
 }
 
 body::-webkit-scrollbar {
@@ -267,7 +267,7 @@ header a {
 	border-radius: 50%;
 }
 
-header button {
+header .type-btn {
 	padding: 8px 20px;
 	border-radius: 20px;
 	background: none;

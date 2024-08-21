@@ -2,6 +2,7 @@
 let headerBurger = document.querySelector(".header__burger");
 let headerNav = document.querySelector(".header__content nav")
 let openHeroModalBtn = document.querySelector(".hero #open-modal")
+let heroContentHTML = document.querySelector(".hero__content")
 
 headerBurger.addEventListener("click", () => {
 	headerNav.classList.toggle("active")
