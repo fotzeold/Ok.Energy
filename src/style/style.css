@@ -207,6 +207,10 @@ header a {
 .header__social {
 	gap: 15px !important;
 }
+
+.header__social a {
+	height: 32px;
+}
 .header__social img {
 	width: 32px;
 	height: 32px;
