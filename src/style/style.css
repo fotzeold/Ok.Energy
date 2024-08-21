@@ -204,7 +204,17 @@ header a {
 .header-transparent {
 	background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 30%, black);
 }
+.header__social {
+	gap: 15px !important;
+}
+.header__social img {
+	width: 32px;
+	height: 32px;
+}
 
+.header__content nav {
+	margin-left: auto;
+}
 .header-solid {
 	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.863) 20%, black 90%);
 }
@@ -356,6 +366,12 @@ footer {
 /* Media */
 
 @media all and (max-width: 768px) {
+	.header__social {
+		margin-left: auto;
+	}
+	header .row {
+		gap: 15px;
+	}
 	.header__burger {
 		display: flex;
 		flex-direction: column;

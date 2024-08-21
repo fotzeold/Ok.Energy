@@ -34,6 +34,20 @@
 	align-items: center;
 	text-align: center;
 	gap: 60px;
+	transform: translateY(100px) scale(0.4);
+	opacity: 0;
+	animation: heroPreview 0.7s 1.4s linear forwards;
+}
+
+@keyframes heroPreview {
+	0% {
+		transform: translateY(100px) scale(0.7);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0) scale(1);
+		opacity: 1;
+	}
 }
 
 .hero__content h1 {
@@ -110,6 +124,7 @@
 /* Owner */
 
 .about__sub-title {
+	margin: 0 auto;
 	font-size: 24px;
 	text-shadow: rgb(0, 0, 0) 2px 1px 2px;
 	mix-blend-mode: difference;
@@ -268,8 +283,9 @@
 		min-height: 675px;
 		align-items: flex-end;
 		background:
-			linear-gradient(50deg, rgba(0, 0, 0, 0.38), rgba(255, 255, 255, 0) 58%),
-			linear-gradient(50deg, #00552b, rgba(0, 94, 134, 0.31) 37%, rgba(0, 0, 0, 0) 68%),
+			linear-gradient(100deg, rgba(0, 0, 0, 0.38), rgba(255, 255, 255, 0) 58%),
+			linear-gradient(180deg, #00552b, rgba(0, 94, 134, 0.15) 17%, rgba(0, 0, 0, 0) 68%),
+			linear-gradient(20deg, #00552b, rgba(0, 94, 134, 0.35) 37%, rgba(0, 0, 0, 0) 68%),
 			url("../img/picture/owner.jpg") 45% 0 / cover no-repeat;
 		border-radius: 25px;
 	}
